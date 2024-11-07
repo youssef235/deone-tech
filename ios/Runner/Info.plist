@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+		<true/>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>ديـ ون للأعمال</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>UILocalNotificationDefaultSoundName</key>
+		<string>notification_sound.wav</string>
+		<key>CFBundleLocalizations</key>
+		<array>
+			<string>ar</string>
+		</array>
+		<key>CFBundleName</key>
+		<string>deeone</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(FLUTTER_BUILD_NAME)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true/>
+		<key>NSCalendarsUsageDescription</key>
+		<string>This app requires access to your calendar to set the time and date to remember the deadline.</string>
+		<key>NSCameraUsageDescription</key>
+		<string>Give Deeone this permission to record video to technician</string>
+		<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+		<string>We use your location to accurately determine where you are, enabling us to send technicians directly to your location for prompt and efficient service. This includes times when the app may not be open but is still running in the background.</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>Our app needs to access your location even when it's running in the background, ensuring that we can continuously provide you with real-time technician availability and send assistance directly to you without delay.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>While using our app, we require your location to pinpoint your exact address, helping us dispatch our technicians to you as quickly as possible for immediate service needs.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Allow Deeone to record your voice to provide detailed information about your offers if you want</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>Our app requires users to upload photos of spare parts. These images are then made available to technicians who can browse through them to better understand and service your needs. This feature allows for more accurate identification and recommendation of the necessary parts for repair. We assure you that your photos are used solely for this purpose and are protected to maintain your privacy.</string>
+		<key>UIApplicationSupportsIndirectInputEvents</key>
+		<true/>
+		<key>UIBackgroundModes</key>
+		<array>
+			<string>fetch</string>
+			<string>remote-notification</string>
+		</array>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UIMainStoryboardFile</key>
+		<string>Main</string>
+		<key>UIStatusBarHidden</key>
+		<false/>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+	</dict>
+</plist>
